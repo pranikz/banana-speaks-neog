@@ -4,24 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
     <title>Bananas translator</title>
-    <style>
-        textarea {
-            width: 90%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-
-        }
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 90%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
 
 </head>
 
@@ -30,9 +16,13 @@
     <textarea placeholder="Enter the sentence which you wanted to convert to Minions's language"
         id="txt-input"></textarea>
     <button id="btn-translate">Click me!</button>
-
-    <div style="font-size: larger;">Output Goes Bananas down here 👇</div>
+    &nbsp;
+    <div style="font-size: larger;">
+        <h2>Output Goes Bananas down here 👇</h2>
+    </div>
+    &nbsp;
     <div id="output"></div>
+    &nbsp;
     <script src="/app.js" type="text/javascript"></script>
 
 </body>

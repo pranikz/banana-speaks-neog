@@ -1,0 +1,57 @@
+body{
+    background-color: #F59E0B;
+    font-family: 'Leckerli One', cursive;
+}
+
+h1 {
+    text-align: center;
+    background:#FBBF24;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+h2 {
+    text-align: center;
+    display: grid;
+    margin: auto;
+    margin-top: 9%;
+    font-size: 30px;
+    background: #FBBF24;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+button {
+    text-align: center;
+    display: grid;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 15px;
+    color: rgb();
+    background:#FBBF24;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    display: grid;
+    left: 25%;
+    border: 5px solid;
+    background:#FBBF24;
+
+
+
+}
+
+#output {
+    border: 5px solid;
+    width: 300px;
+    height: 100px;
+    display: grid;
+    margin: auto;
+
+}
